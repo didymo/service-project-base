@@ -78,6 +78,19 @@
                     "reference": "master"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "rotaryuow/rules",
+                "version": "8.0.0",
+                "type": "drupal-module",
+                "source": {
+                    "url": "https://github.com/rotaryuow/rules",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require": {
@@ -129,6 +142,7 @@
         "rotaryuow/assetmanage": "*",
         "rotaryuow/userprofiles": "*",
         "rotaryuow/manage_event": "*",
+        "rotaryuow/rules": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
