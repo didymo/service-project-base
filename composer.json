@@ -91,6 +91,19 @@
                     "reference": "master"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "rotaryuow/calendar",
+                "version": "8.0.0",
+                "type": "drupal-module",
+                "source": {
+                    "url": "https://github.com/rotaryuow/calendar",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require": {
@@ -107,7 +120,6 @@
         "drupal/admin_toolbar": "~1.0",
         "drupal/address_map_link": "~1.0",
         "drupal/bootstrap_layouts": "~5.0",
-        "drupal/calendar": "*",
         "drupal/courier": "~1.0",
         "drupal/ctools": "~3.0",
         "drupal/ds": "~3.0",
@@ -142,6 +154,7 @@
         "rotaryuow/userprofiles": "*",
         "rotaryuow/manage_event": "*",
         "rotaryuow/rules": "*",
+        "rotaryuow/calendar": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
