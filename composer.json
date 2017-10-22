@@ -125,7 +125,6 @@
         "drupal/rng_contact": "~1.0",
         "drupal/rng_quick": "~1.0",
         "drupal/rng_date_scheduler": "~1.0",
-        "drupal/rules": "~3.0",
         "drupal/scheduler": "~1.0",
         "drupal/simplify": "~1.0",
         "drupal/typed_data": "~1.0",
