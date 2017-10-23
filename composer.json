@@ -17,11 +17,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/service_club_base",
+                "name": "rotaryuow/service_club_base",
                 "version": "8.0.0",
                 "type": "drupal-profile",
                 "source": {
-                    "url": "https://github.com/didymo/service_club_base.git",
+                    "url": "https://github.com/rotaryuow/service_club_base.git",
                     "type": "git",
                     "reference": "master"
                 }
@@ -30,11 +30,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/bt_subtheme",
+                "name": "rotaryuow/bt_subtheme",
                 "version": "8.0.0",
                 "type": "drupal-theme",
                 "source": {
-                    "url": "https://github.com/didymo/bt_subtheme",
+                    "url": "https://github.com/rotaryuow/bt_subtheme",
                     "type": "git",
                     "reference": "master"
                 }
@@ -43,11 +43,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/assetmanage",
+                "name": "rotaryuow/assetmanage",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/assetmanage",
+                    "url": "https://github.com/rotaryuow/assetmanage",
                     "type": "git",
                     "reference": "master"
                 }
@@ -56,11 +56,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/userprofiles",
+                "name": "rotaryuow/userprofiles",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/userprofiles",
+                    "url": "https://github.com/rotaryuow/userprofiles",
                     "type": "git",
                     "reference": "master"
                 }
@@ -69,11 +69,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/manage_event",
+                "name": "rotaryuow/manage_event",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/manage_event",
+                    "url": "https://github.com/rotaryuow/manage_event",
                     "type": "git",
                     "reference": "master"
                 }
@@ -82,11 +82,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/vehicle",
+                "name": "rotaryuow/rules",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/vehicle",
+                    "url": "https://github.com/rotaryuow/rules",
                     "type": "git",
                     "reference": "master"
                 }
@@ -95,11 +95,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/manage_inventory",
+                "name": "rotaryuow/calendar",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/manage_inventory",
+                    "url": "https://github.com/rotaryuow/calendar",
                     "type": "git",
                     "reference": "master"
                 }
@@ -120,7 +120,6 @@
         "drupal/admin_toolbar": "~1.0",
         "drupal/address_map_link": "~1.0",
         "drupal/bootstrap_layouts": "~5.0",
-        "drupal/calendar": "*",
         "drupal/courier": "~1.0",
         "drupal/ctools": "~3.0",
         "drupal/ds": "~3.0",
@@ -138,7 +137,6 @@
         "drupal/rng_contact": "~1.0",
         "drupal/rng_quick": "~1.0",
         "drupal/rng_date_scheduler": "~1.0",
-        "drupal/rules": "~3.0",
         "drupal/scheduler": "~1.0",
         "drupal/simplify": "~1.0",
         "drupal/typed_data": "~1.0",
@@ -150,13 +148,13 @@
         "drupal/shorten": "~1.0",
         "phpmailer/phpmailer": "~5.0",
         "drush/drush": "~9.0",
-        "didymo/service_club_base": "*",
-        "didymo/bt_subtheme": "*",
-        "didymo/assetmanage": "*",
-        "didymo/userprofiles": "*",
-        "didymo/manage_event": "*",
-        "didymo/vehicle": "*",
-        "didymo/manage_inventory": "*",
+        "rotaryuow/service_club_base": "*",
+        "rotaryuow/bt_subtheme": "*",
+        "rotaryuow/assetmanage": "*",
+        "rotaryuow/userprofiles": "*",
+        "rotaryuow/manage_event": "*",
+        "rotaryuow/rules": "*",
+        "rotaryuow/calendar": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
