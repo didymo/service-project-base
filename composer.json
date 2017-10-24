@@ -78,38 +78,13 @@
                     "reference": "master"
                 }
             }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "rotaryuow/rules",
-                "version": "8.0.0",
-                "type": "drupal-module",
-                "source": {
-                    "url": "https://github.com/rotaryuow/rules",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "rotaryuow/calendar",
-                "version": "8.0.0",
-                "type": "drupal-module",
-                "source": {
-                    "url": "https://github.com/rotaryuow/calendar",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
         }
     ],
     "require": {
         "ext-curl": "*",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
+        "drupal/calendar": "*",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
@@ -137,6 +112,7 @@
         "drupal/rng_contact": "~1.0",
         "drupal/rng_quick": "~1.0",
         "drupal/rng_date_scheduler": "~1.0",
+        "drupal/rules": "3.0-alpha3",
         "drupal/scheduler": "~1.0",
         "drupal/simplify": "~1.0",
         "drupal/typed_data": "~1.0",
@@ -153,8 +129,6 @@
         "rotaryuow/assetmanage": "*",
         "rotaryuow/userprofiles": "*",
         "rotaryuow/manage_event": "*",
-        "rotaryuow/rules": "*",
-        "rotaryuow/calendar": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
@@ -203,6 +177,11 @@
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
+        },
+        "patches": {
+        	"drupal/rules" {
+        		"Rules type definition": "https://www.drupal.org/files/issues/2694685-52.rules-fix_type_definition_error.patch"
+        	}
         }
     }
 }
