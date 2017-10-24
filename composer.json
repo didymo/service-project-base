@@ -78,32 +78,6 @@
                     "reference": "master"
                 }
             }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "didymo/vehicle",
-                "version": "8.0.0",
-                "type": "drupal-module",
-                "source": {
-                    "url": "https://github.com/didymo/vehicle",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
-        },
-        {
-            "type": "package",
-            "package": {
-                "name": "didymo/manage_inventory",
-                "version": "8.0.0",
-                "type": "drupal-module",
-                "source": {
-                    "url": "https://github.com/didymo/manage_inventory",
-                    "type": "git",
-                    "reference": "master"
-                }
-            }
         }
     ],
     "require": {
@@ -155,8 +129,6 @@
         "didymo/assetmanage": "*",
         "didymo/userprofiles": "*",
         "didymo/manage_event": "*",
-        "didymo/vehicle": "*",
-        "didymo/manage_inventory": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
