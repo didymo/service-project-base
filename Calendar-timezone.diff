@@ -1,0 +1,19 @@
+diff --git a/web/modules/contrib/calendar/src/Plugin/views/row/Calendar.php b/web/modules/contrib/calendar/src/Plugin/views/row/Calendar.php
+index f04727c2..fb6ad1e6 100644
+--- a/web/modules/contrib/calendar/src/Plugin/views/row/Calendar.php
++++ b/web/modules/contrib/calendar/src/Plugin/views/row/Calendar.php
+@@ -10,7 +10,8 @@
+ use Drupal\datetime\Plugin\Field\FieldType\DateTimeItem;
+ use Drupal\taxonomy\Entity\Term;
+ use Drupal\views\Plugin\views\argument\Date;
+ use Drupal\Core\Datetime\DateFormatter;
+ use Drupal\Core\Form\FormStateInterface;
++use Drupal\Core\Datetime\DrupalDateTime;
+ use Drupal\views\Plugin\views\display\DisplayPluginBase;
+ use Drupal\views\Plugin\views\row\RowPluginBase;
+@@ -445,4 +446,4 @@ public function render($row) {
+-        $item_start_date = $item_end_date = \DateTime::createFromFormat($storage_format, $row->{$info['query_name']});
++        $item_start_date = $item_end_date = DrupalDateTime::createFromFormat($storage_format, $row->{$info['query_name']}, DATETIME_STORAGE_TIMEZONE);
+
+ //        $db_tz   = date_get_timezone_db($tz_handling, isset($item->$tz_field) ? $item->$tz_field : timezone_name_get($dateInfo->getTimezone()));
+ //        $to_zone = date_get_timezone($tz_handling, isset($item->$tz_field)) ? $item->$tz_field : timezone_name_get($dateInfo->getTimezone());
