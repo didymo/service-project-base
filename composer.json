@@ -180,11 +180,13 @@
         },
         "patches": {
         	"drupal/rules": {
-        		"Rules type definition": "https://www.drupal.org/files/issues/2694685-52.rules-fix_type_definition_error.patch",
-                "Rules type definition": "rules_send_email_to_roles.diff"
+        		"getDataType() error patch": "https://www.drupal.org/files/issues/2694685-52.rules-fix_type_definition_error.patch",
         	},
+            "drupal/rules": {
+                "send email to roles patch": "rules_send_email_to_roles.diff"
+            }
             "drupal/calendar": {
-                "Rules type definition": "Calendar-timezone.diff"
+                "timezone patch": "Calendar-timezone.diff"
             }
         }
     }
