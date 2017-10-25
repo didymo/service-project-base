@@ -184,7 +184,7 @@
         	},
             "drupal/rules": {
                 "send email to roles patch": "rules_send_email_to_roles.diff"
-            }
+            },
             "drupal/calendar": {
                 "timezone patch": "Calendar-timezone.diff"
             }
