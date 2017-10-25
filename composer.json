@@ -182,9 +182,6 @@
         	"drupal/rules": {
         		"Rules type definition": "https://www.drupal.org/files/issues/2694685-52.rules-fix_type_definition_error.patch"
         	}
-            "drupal/calendar": {
-        		"Rules type definition": "https://github.com/rotaryuow/service-project-base/blob/master/Calendar-timezone.diff"
-        	}
         }
     }
 }
