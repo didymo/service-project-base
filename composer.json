@@ -180,11 +180,9 @@
         },
         "patches": {
                         "drupal/rules": {
-                "send email to roles patch": "rules_send_email_to_roles.diff"
+                "send email to roles patch": "rules_send_email_to_roles.diff",
+                            "getDataType error patch": "https://www.drupal.org/files/issues/2694685-52.rules-fix_type_definition_error.patch"
             },
-        	"drupal/rules": {
-        		"getDataType error patch": "https://www.drupal.org/files/issues/2694685-52.rules-fix_type_definition_error.patch"
-        	},
             "drupal/calendar": {
                 "timezone patch": "Calendar-timezone.diff"
             }
