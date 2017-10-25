@@ -1,6 +1,6 @@
-diff -Naur RulesAction/SystemSendEmailToRole.php NewRulesAction/SystemSendEmailToRole.php
---- RulesAction/SystemSendEmailToRole.php	1970-01-01 10:00:00.000000000 +1000
-+++ NewRulesAction/SystemSendEmailToRole.php	2017-06-15 16:44:30.000000000 +1000
+diff -Naur a/src/Plugin/RulesAction/SystemSendEmailToRole.php b/src/Plugin/RulesAction/SystemSendEmailToRole.php
+--- a/src/Plugin/RulesAction/SystemSendEmailToRole.php
++++ b/src/Plugin/RulesAction/SystemSendEmailToRole.php	
 @@ -0,0 +1,138 @@
 +<?php
 +
