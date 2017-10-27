@@ -43,7 +43,7 @@
         {
             "type": "package",
             "package": {
-                "name": "rotaryuow/service_clubs_manage_asset",
+                "name": "rotaryuow/assetmanage",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
@@ -126,7 +126,7 @@
         "drush/drush": "~9.0",
         "rotaryuow/service_club_base": "*",
         "rotaryuow/bt_subtheme": "*",
-        "rotaryuow/service_clubs_manage_asset": "*",
+        "rotaryuow/assetmanage": "*",
         "rotaryuow/service_clubs_manage_profile": "*",
         "rotaryuow/service_clubs_manage_event": "*",
         "webflo/drupal-finder": "^1.0.0",
