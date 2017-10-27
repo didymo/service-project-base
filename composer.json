@@ -1,5 +1,5 @@
 {
-    "name": "didymo/service-project-base",
+    "name": "rotary/service-project-base",
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0+",
@@ -127,8 +127,8 @@
         "didymo/service_club_base": "*",
         "didymo/bt_subtheme": "*",
         "didymo/assetmanage": "*",
-        "didymo/service_clubs_manage_profile": "*",
-        "didymo/service_clubs_manage_event": "*",
+        "didymo/userprofiles": "*",
+        "didymo/manage_event": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
