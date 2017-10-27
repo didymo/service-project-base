@@ -1,5 +1,5 @@
 {
-    "name": "rotary/service-project-base",
+    "name": "didymo/service-project-base",
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0+",
@@ -17,11 +17,11 @@
         {
             "type": "package",
             "package": {
-                "name": "rotaryuow/service_club_base",
+                "name": "didymo/service_club_base",
                 "version": "8.0.0",
                 "type": "drupal-profile",
                 "source": {
-                    "url": "https://github.com/rotaryuow/service_club_base.git",
+                    "url": "https://github.com/didymo/service_club_base.git",
                     "type": "git",
                     "reference": "master"
                 }
@@ -30,11 +30,11 @@
         {
             "type": "package",
             "package": {
-                "name": "rotaryuow/bt_subtheme",
+                "name": "didymo/bt_subtheme",
                 "version": "8.0.0",
                 "type": "drupal-theme",
                 "source": {
-                    "url": "https://github.com/rotaryuow/bt_subtheme",
+                    "url": "https://github.com/didymo/bt_subtheme",
                     "type": "git",
                     "reference": "master"
                 }
@@ -56,11 +56,11 @@
         {
             "type": "package",
             "package": {
-                "name": "rotaryuow/service_clubs_manage_profile",
+                "name": "didymo/userprofiles",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/rotaryuow/service_clubs_manage_profile",
+                    "url": "https://github.com/didymo/userprofiles",
                     "type": "git",
                     "reference": "master"
                 }
@@ -127,7 +127,7 @@
         "rotaryuow/service_club_base": "*",
         "rotaryuow/bt_subtheme": "*",
         "didymo/assetmanage": "*",
-        "rotaryuow/service_clubs_manage_profile": "*",
+        "didymo/userprofiles": "*",
         "didymo/manage_event": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
