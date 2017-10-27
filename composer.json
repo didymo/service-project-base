@@ -17,11 +17,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/service_club_base",
+                "name": "rotaryuow/service_club_base",
                 "version": "8.0.0",
                 "type": "drupal-profile",
                 "source": {
-                    "url": "https://github.com/didymo/service_club_base.git",
+                    "url": "https://github.com/rotaryuow/service_club_base.git",
                     "type": "git",
                     "reference": "master"
                 }
@@ -30,11 +30,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/bt_subtheme",
+                "name": "rotaryuow/bt_subtheme",
                 "version": "8.0.0",
                 "type": "drupal-theme",
                 "source": {
-                    "url": "https://github.com/didymo/bt_subtheme",
+                    "url": "https://github.com/rotaryuow/bt_subtheme",
                     "type": "git",
                     "reference": "master"
                 }
