@@ -43,11 +43,11 @@
         {
             "type": "package",
             "package": {
-                "name": "rotaryuow/assetmanage",
+                "name": "rotaryuow/service_clubs_manage_asset",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/rotaryuow/assetmanage",
+                    "url": "https://github.com/rotaryuow/service_clubs_manage_asset",
                     "type": "git",
                     "reference": "master"
                 }
