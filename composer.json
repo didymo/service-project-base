@@ -1,5 +1,5 @@
 {
-    "name": "didymo/service-project-base",
+    "name": "rotaryuow/service-project-base",
     "description": "Project template for Drupal 8 projects with composer",
     "type": "project",
     "license": "GPL-2.0+",
@@ -17,11 +17,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/service_club_base",
+                "name": "rotaryuow/service_club_base",
                 "version": "8.0.0",
                 "type": "drupal-profile",
                 "source": {
-                    "url": "https://github.com/didymo/service_club_base.git",
+                    "url": "https://github.com/rotaryuow/service_club_base.git",
                     "type": "git",
                     "reference": "master"
                 }
@@ -30,11 +30,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/bt_subtheme",
+                "name": "rotaryuow/bt_subtheme",
                 "version": "8.0.0",
                 "type": "drupal-theme",
                 "source": {
-                    "url": "https://github.com/didymo/bt_subtheme",
+                    "url": "https://github.com/rotaryuow/bt_subtheme",
                     "type": "git",
                     "reference": "master"
                 }
@@ -43,11 +43,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/assetmanage",
+                "name": "rotaryuow/assetmanage",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/assetmanage",
+                    "url": "https://github.com/rotaryuow/assetmanage",
                     "type": "git",
                     "reference": "master"
                 }
@@ -56,11 +56,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/userprofiles",
+                "name": "rotaryuow/userprofiles",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/userprofiles",
+                    "url": "https://github.com/rotaryuow/userprofiles",
                     "type": "git",
                     "reference": "master"
                 }
@@ -69,11 +69,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/manage_event",
+                "name": "rotaryuow/manage_event",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/manage_event",
+                    "url": "https://github.com/rotaryuow/manage_event",
                     "type": "git",
                     "reference": "master"
                 }
@@ -124,11 +124,11 @@
         "drupal/shorten": "~1.0",
         "phpmailer/phpmailer": "~5.0",
         "drush/drush": "~9.0",
-        "didymo/service_club_base": "*",
-        "didymo/bt_subtheme": "*",
-        "didymo/assetmanage": "*",
-        "didymo/userprofiles": "*",
-        "didymo/manage_event": "*",
+        "rotaryuow/service_club_base": "*",
+        "rotaryuow/bt_subtheme": "*",
+        "rotaryuow/assetmanage": "*",
+        "rotaryuow/userprofiles": "*",
+        "rotaryuow/manage_event": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
