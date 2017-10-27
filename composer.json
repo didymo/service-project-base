@@ -43,11 +43,11 @@
         {
             "type": "package",
             "package": {
-                "name": "rotaryuow/assetmanage",
+                "name": "rotaryuow/service_clubs_manage_asset",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/rotaryuow/assetmanage",
+                    "url": "https://github.com/rotaryuow/service_clubs_manage_asset",
                     "type": "git",
                     "reference": "master"
                 }
@@ -56,11 +56,11 @@
         {
             "type": "package",
             "package": {
-                "name": "rotaryuow/userprofiles",
+                "name": "rotaryuow/service_clubs_manage_profile",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/rotaryuow/userprofiles",
+                    "url": "https://github.com/rotaryuow/service_clubs_manage_profile",
                     "type": "git",
                     "reference": "master"
                 }
@@ -69,11 +69,11 @@
         {
             "type": "package",
             "package": {
-                "name": "rotaryuow/manage_event",
+                "name": "rotaryuow/service_clubs_manage_event",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/rotaryuow/manage_event",
+                    "url": "https://github.com/rotaryuow/service_clubs_manage_event",
                     "type": "git",
                     "reference": "master"
                 }
@@ -126,9 +126,9 @@
         "drush/drush": "~9.0",
         "rotaryuow/service_club_base": "*",
         "rotaryuow/bt_subtheme": "*",
-        "rotaryuow/assetmanage": "*",
-        "rotaryuow/userprofiles": "*",
-        "rotaryuow/manage_event": "*",
+        "rotaryuow/service_clubs_manage_asset": "*",
+        "rotaryuow/service_clubs_manage_profile": "*",
+        "rotaryuow/service_clubs_manage_event": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
