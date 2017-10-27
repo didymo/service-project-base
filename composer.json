@@ -126,7 +126,7 @@
         "drush/drush": "~9.0",
         "rotaryuow/service_club_base": "*",
         "rotaryuow/bt_subtheme": "*",
-        "rotaryuow/assetmanage": "*",
+        "rotaryuow/service_clubs_manage_asset": "*",
         "rotaryuow/service_clubs_manage_profile": "*",
         "rotaryuow/service_clubs_manage_event": "*",
         "webflo/drupal-finder": "^1.0.0",
