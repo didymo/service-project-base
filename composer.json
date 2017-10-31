@@ -17,11 +17,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/service_club_base",
+                "name": "rotaryuow/service_club_base",
                 "version": "8.0.0",
                 "type": "drupal-profile",
                 "source": {
-                    "url": "https://github.com/didymo/service_club_base.git",
+                    "url": "https://github.com/rotaryuow/service_club_base.git",
                     "type": "git",
                     "reference": "master"
                 }
@@ -30,11 +30,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/bt_subtheme",
+                "name": "rotaryuow/bt_subtheme",
                 "version": "8.0.0",
                 "type": "drupal-theme",
                 "source": {
-                    "url": "https://github.com/didymo/bt_subtheme",
+                    "url": "https://github.com/rotaryuow/bt_subtheme",
                     "type": "git",
                     "reference": "master"
                 }
@@ -43,11 +43,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/assetmanage",
+                "name": "rotaryuow/assetmanage",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/assetmanage",
+                    "url": "https://github.com/rotaryuow/assetmanage",
                     "type": "git",
                     "reference": "master"
                 }
@@ -56,11 +56,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/userprofiles",
+                "name": "rotaryuow/userprofiles",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/userprofiles",
+                    "url": "https://github.com/rotaryuow/userprofiles",
                     "type": "git",
                     "reference": "master"
                 }
@@ -69,11 +69,11 @@
         {
             "type": "package",
             "package": {
-                "name": "didymo/manage_event",
+                "name": "rotaryuow/manage_event",
                 "version": "8.0.0",
                 "type": "drupal-module",
                 "source": {
-                    "url": "https://github.com/didymo/manage_event",
+                    "url": "https://github.com/rotaryuow/manage_event",
                     "type": "git",
                     "reference": "master"
                 }
@@ -84,6 +84,7 @@
         "ext-curl": "*",
         "composer/installers": "^1.2",
         "cweagans/composer-patches": "^1.6",
+        "drupal/calendar": "*",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/console": "^1.0.1",
         "drupal/core": "~8.0",
@@ -94,7 +95,6 @@
         "drupal/admin_toolbar": "~1.0",
         "drupal/address_map_link": "~1.0",
         "drupal/bootstrap_layouts": "~5.0",
-        "drupal/calendar": "*",
         "drupal/courier": "~1.0",
         "drupal/ctools": "~3.0",
         "drupal/ds": "~3.0",
@@ -124,11 +124,11 @@
         "drupal/shorten": "~1.0",
         "phpmailer/phpmailer": "~5.0",
         "drush/drush": "~9.0",
-        "didymo/service_club_base": "*",
-        "didymo/bt_subtheme": "*",
-        "didymo/assetmanage": "*",
-        "didymo/userprofiles": "*",
-        "didymo/manage_event": "*",
+        "rotaryuow/service_club_base": "*",
+        "rotaryuow/bt_subtheme": "*",
+        "rotaryuow/assetmanage": "*",
+        "rotaryuow/userprofiles": "*",
+        "rotaryuow/manage_event": "*",
         "webflo/drupal-finder": "^1.0.0",
         "webmozart/path-util": "^2.3"
     },
@@ -172,15 +172,19 @@
     "extra": {
         "installer-paths": {
             "web/core": ["type:drupal-core"],
-            "web/libraries/{$name}": ["type:drupal-library"],
+            "web/libraries/{$name}": ["type:library"],
             "web/modules/contrib/{$name}": ["type:drupal-module"],
             "web/profiles/contrib/{$name}": ["type:drupal-profile"],
             "web/themes/contrib/{$name}": ["type:drupal-theme"],
             "drush/contrib/{$name}": ["type:drupal-drush"]
         },
         "patches": {
-            "drupal/rules": {
-                "Rules type definition": "https://www.drupal.org/files/issues/2694685-52.rules-fix_type_definition_error.patch"
+                        "drupal/rules": {
+                "send email to roles patch": "rules_send_email_to_roles.diff",
+                            "getDataType error patch": "https://www.drupal.org/files/issues/2694685-52.rules-fix_type_definition_error.patch"
+            },
+            "drupal/calendar": {
+                "timezone patch": "Calendar-timezone.diff"
             }
         }
     }
