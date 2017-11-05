@@ -1,6 +1,7 @@
 # Composer template for Drupal projects for service organisations
 
-Based on [drupal-composer/drupal-project](https://github.com/drupal-composer/drupal-project)
+Based on [drupal-composer/drupal-project]
+(https://github.com/drupal-composer/drupal-project)
 
 This project template should provide a kickstart for managing your site
 dependencies with [Composer](https://getcomposer.org/).
@@ -11,9 +12,11 @@ the [Documentation on drupal.org](https://www.drupal.org/node/2471553).
 
 ## Usage
 
-First you need to [install composer](https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
+First you need to [install composer]
+(https://getcomposer.org/doc/00-intro.md#installation-linux-unix-osx).
 
-> Note: The instructions below refer to the [global composer installation](https://getcomposer.org/doc/00-intro.md#globally).
+> Note: The instructions below refer to the [global composer installation]
+(https://getcomposer.org/doc/00-intro.md#globally).
 You might need to replace `composer` with `php composer.phar` (or similar) 
 for your setup.
 
