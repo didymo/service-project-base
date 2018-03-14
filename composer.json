@@ -87,7 +87,7 @@
         "drupal/calendar": "*",
         "drupal-composer/drupal-scaffold": "^2.2",
         "drupal/console": "^1.0.1",
-        "drupal/core": "~8.0",
+        "drupal/core": "~8.4",
         "drupal/commerce": "~2.0",
         "drupal/swiftmailer": "~1.0",
         "drupal/token": "~1.0",
